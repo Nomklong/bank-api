@@ -1,0 +1,2036 @@
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api
+> npm run start                                                                                              feature/login [f603c92]
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+Express application started on port: 8080
+GET / 304 8.490 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                                      feature/login [f603c92] modified
+
+> bank-api@0.0.1 pr> banksc> bank-api@0.0.1 pr> banksc> bank-api@0.0.1 pr> banst> bank-api@0.0.1 pr> banksc> bank-api@0.0.1 pr> banksc> bank-api@0.0.1 pr> banst> bank-api@0.0.1 pr> banksc> bank-api@0.0.1 pr> ban- -> bank-api@0.0.1 pr -> bank-api@0.0.1 pr> ba -
+> bank-api@0.0.1 pr> banksc> bank-api@0.s > -
+> bank-api@0.0.1 pr> banksc> bank-api@0.s > -
+> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> bank-> ban mo> bank-> bank-> bank-0.> bav:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+GET / 304 8.402 ms - -
+GET / 304 8.708 ms - -
+GET / 304 1.813 ms - -
+GET /api 404 8.807 ms - 142
+GET /api/orutes 404 3.885 ms - 149
+GET /server-status/routes 404 3.082 ms - 159
+GET /server-status 404 0.654 ms - 152
+GET /api/server-status 200 10.418 ms - 37
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+GET /api/server-status 304 7.140 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+{
+  NVM_INC: '/Users/nomklong/.nvm/versions/node/v14.18.1/include/node',
+  MANPATH: '/Users/nomklong/.nvm/versions/node/v14.18.1/share/man:/opt/homebrew/share/man::',
+  TERM_PROGRAM: 'iTerm.app',
+  NODE: '/Users/nomklong/.nvm/versions/node/v14.18.1/bin/node',
+  NVM_CD_FLAGS: '-q',
+  INIT_CWD: '/Users/nomklong/project/demo/bank-api',
+  SHELL: '/bin/zsh',
+  TERM: 'xterm-256color',
+  TMPDIR: '/var/folders/_5/7kk2k82x22s8c_jc5gnyjmv40000gn/T/',
+  HOMEBREW_REPOSITORY: '/opt/homebrew',
+  npm_config_metrics_registry: 'https://registry.npmjs.org/',
+  npm_config_global_prefix: '/Users/nomklong/.nvm/versions/node/v14.18.1',
+  TERM_PROGRAM_VERSION: '3.4.12',
+  TERM_SESSION_ID: 'w0t0p0:BEBECB9B-60EB-40B7-8515-5AA117573213',
+  COLOR: '1',
+  npm_config_noproxy: '',
+  ZSH: '/Users/nomklong/.oh-my-zsh',
+  npm_config_local_prefix: '/Users/nomklong/project/demo/bank-api',
+  USER: 'nomklong',
+  NVM_DIR: '/Users/nomklong/.nvm',
+  HOMEBREW_SHELLENV_PREFIX: '/opt/homebrew',
+  COMMAND_MODE: 'unix2003',
+  npm_config_globalconfig: '/Users/nomklong/.nvm/versions/node/v14.18.1/etc/npmrc',
+  SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.EngweAxDev/Listeners',
+  __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+  npm_execpath: '/Users/nomklong/.nvm/versions/node/v14.18.1/lib/node_modules/npm/bin/npm-cli.js',
+  PAGER: 'less',
+  LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+  PATH: '/Users/nomklong/project/demo/bank-api/node_modules/.bin:/Users/nomklong/project/demo/bank-api/node_modules/.bin:/Users/nomklong/project/demo/node_modules/.bin:/Users/nomklong/project/node_modules/.bin:/Users/nomklong/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/nomklong/.nvm/versions/node/v14.18.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/openssl@3/bin:/Users/nomklong/.nvm/versions/node/v14.18.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin',
+  _: '/Users/nomklong/project/demo/bank-api/node_modules/.bin/ts-node',
+  npm_package_json: '/Users/nomklong/project/demo/bank-api/package.json',
+  __CFBundleIdentifier: 'com.googlecode.iterm2',
+  npm_config_init_module: '/Users/nomklong/.npm-init.js',
+  npm_config_userconfig: '/Users/nomklong/.npmrc',
+  PWD: '/Users/nomklong/project/demo/bank-api',
+  npm_command: 'run-script',
+  EDITOR: 'vi',
+  npm_lifecycle_event: 'dev:nodemon',
+  npm_package_name: 'bank-api',
+  ITERM_PROFILE: 'Default',
+  XPC_FLAGS: '0x0',
+  npm_config_node_gyp: '/Users/nomklong/.nvm/versions/node/v14.18.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js',
+  XPC_SERVICE_NAME: '0',
+  npm_package_version: '0.0.1',
+  COLORFGBG: '7;0',
+  HOME: '/Users/nomklong',
+  SHLVL: '3',
+  LC_TERMINAL_VERSION: '3.4.12',
+  npm_config_strict_ssl: '',
+  HOMEBREW_PREFIX: '/opt/homebrew',
+  ITERM_SESSION_ID: 'w0t0p0:BEBECB9B-60EB-40B7-8515-5AA117573213',
+  LOGNAME: 'nomklong',
+  LESS: '-R',
+  npm_config_cache: '/Users/nomklong/.npm',
+  npm_lifecycle_script: 'nodemon -w src -e ts,json -x ts-node ./src/index.ts',
+  LC_CTYPE: 'UTF-8',
+  NVM_BIN: '/Users/nomklong/.nvm/versions/node/v14.18.1/bin',
+  npm_config_user_agent: 'npm/8.1.2 node/v14.18.1 darwin x64 workspaces/false',
+  HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+  INFOPATH: '/opt/homebrew/share/info:',
+  LC_TERMINAL: 'iTerm2',
+  COLORTERM: 'truecolor',
+  npm_config_prefix: '/Users/nomklong/.nvm/versions/node/v14.18.1',
+  npm_node_execpath: '/Users/nomklong/.nvm/versions/node/v14.18.1/bin/node',
+  port: '8081',
+  NODE_ENV: 'development'
+}
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+undefined
+Express application started on port: 8080
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                                       feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+undefined
+Express application started on port: 8080
+GET /api/server-status 304 8.984 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                                       feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+undefined
+Express application started on port: 8080
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                                       feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+development
+Express application started on port: 8081
+GET /api/server-status 200 4.591 ms - 37
+GET /favicon.ico 404 2.010 ms - 150
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/src/index.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                         feature/login [a00be7b] modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/src/index.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                         feature/login [a00be7b] modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:6:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:6:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+GET /api/server-status 304 4.281 ms - -
+GET /api/server-status 304 1.816 ms - -
+GET /api/server-status 304 0.770 ms - -
+GET /api/server-status/routes 200 0.874 ms - 2745
+GET /api/server-status/routes 304 3.239 ms - -
+GET /api/server-status/routes 304 15.526 ms - -
+GET /api/server-status/routes 304 0.635 ms - -
+GET /api/server-status/routes 304 2.755 ms - -
+GET /api/server-status/routes 304 0.975 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+src/app/services/server.status.service.ts:23:3 - error TS2322: Type 'any[]' is not assignable to type 'string'.
+
+23   return routes;
+     ~~~~~~~~~~~~~~
+
+
+Found 1 error.
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                 feature/login [a00be7b] renamed modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                 feature/login [a00be7b] renamed modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module '../src/app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                 feature/login [a00be7b] renamed modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+const mongoDatabase = () => mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI)
+                                     ^
+
+TypeError: mongoose.connect is not a function
+    at mongoDatabase (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:38)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:33:36)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+exports.mongoDatabase = mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI)
+                                 ^
+
+TypeError: mongoose.connect is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:34)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:28:26)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+src/app/config/mongo-database.ts:20:28 - error TS1005: ',' expected.
+
+20 export const mongoDatabase () => mongoose.createConnection(process.env.MONGO_URI || config.MONGO_URI);
+                              ~
+
+
+Found 1 error.
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+src/index.ts:12:1 - error TS2349: This expression is not callable.
+  Type 'Connection' has no call signatures.
+
+12 mongoDatabase().connect();
+   ~~~~~~~~~~~~~
+
+
+Found 1 error.
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './src/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './src/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Error: Cannot find module './src/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/src/index.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:6:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^[[A
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:2
+import config from "/config.json";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:2
+import config from "/config.json";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:5:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^[[A^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:4:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+exports.mongoDatabase = mongoose.createConnection(process.env.MONGO_URI || config_json_1.default.MONGO_URI);
+                                 ^
+
+TypeError: mongoose.createConnection is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:34)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+exports.mongoDatabase = mongoose.createConnection(process.env.MONGO_URI || config_json_1.default.MONGO_URI);
+                                 ^
+
+TypeError: mongoose.createConnection is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:34)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/index.js:31
+mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI, {}).then().catch();
+         ^
+
+TypeError: mongoose.connect is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:31:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/index.js:31
+mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI, {}).then().catch();
+         ^
+
+TypeError: mongoose.connect is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:31:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+^[[A^[[B^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:30:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:30:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+Connect mongodb successfully
+^[[A
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+^[[A
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+Connect mongodb successfully
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier -D       feature/login [a00be7b] renamed modified untracked
+zsh: command not found: yarn
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier -        feature/login [a00be7b] renamed modified untracked[201~[200~
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api
+> npm run dev                                                                                                feature/login [f603c92]
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8080
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api
+> npm run build                                                                                              feature/login [f603c92]
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api
+> npm run start                                                                                              feature/login [f603c92]
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+Express application started on port: 8080
+GET / 304 8.490 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                                      feature/login [f603c92] modified
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8080
+GET / 304 8.576 ms - -
+GET / 304 3.041 ms - -
+GET / 304 1.683 ms - -
+GET / 304 0.766 ms - -
+GET / 304 0.548 ms - -
+GET / 304 0.654 ms - -
+GET / 304 1.651 ms - -
+GET / 304 0.476 ms - -
+GET / 304 0.724 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [f603c92] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+GET / 304 8.402 ms - -
+GET / 304 8.708 ms - -
+GET / 304 1.813 ms - -
+GET /api 404 8.807 ms - 142
+GET /api/orutes 404 3.885 ms - 149
+GET /server-status/routes 404 3.082 ms - 159
+GET /server-status 404 0.654 ms - 152
+GET /api/server-status 200 10.418 ms - 37
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+GET /api/server-status 304 7.140 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+{
+  NVM_INC: '/Users/nomklong/.nvm/versions/node/v14.18.1/include/node',
+  MANPATH: '/Users/nomklong/.nvm/versions/node/v14.18.1/share/man:/opt/homebrew/share/man::',
+  TERM_PROGRAM: 'iTerm.app',
+  NODE: '/Users/nomklong/.nvm/versions/node/v14.18.1/bin/node',
+  NVM_CD_FLAGS: '-q',
+  INIT_CWD: '/Users/nomklong/project/demo/bank-api',
+  SHELL: '/bin/zsh',
+  TERM: 'xterm-256color',
+  TMPDIR: '/var/folders/_5/7kk2k82x22s8c_jc5gnyjmv40000gn/T/',
+  HOMEBREW_REPOSITORY: '/opt/homebrew',
+  npm_config_metrics_registry: 'https://registry.npmjs.org/',
+  npm_config_global_prefix: '/Users/nomklong/.nvm/versions/node/v14.18.1',
+  TERM_PROGRAM_VERSION: '3.4.12',
+  TERM_SESSION_ID: 'w0t0p0:BEBECB9B-60EB-40B7-8515-5AA117573213',
+  COLOR: '1',
+  npm_config_noproxy: '',
+  ZSH: '/Users/nomklong/.oh-my-zsh',
+  npm_config_local_prefix: '/Users/nomklong/project/demo/bank-api',
+  USER: 'nomklong',
+  NVM_DIR: '/Users/nomklong/.nvm',
+  HOMEBREW_SHELLENV_PREFIX: '/opt/homebrew',
+  COMMAND_MODE: 'unix2003',
+  npm_config_globalconfig: '/Users/nomklong/.nvm/versions/node/v14.18.1/etc/npmrc',
+  SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.EngweAxDev/Listeners',
+  __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+  npm_execpath: '/Users/nomklong/.nvm/versions/node/v14.18.1/lib/node_modules/npm/bin/npm-cli.js',
+  PAGER: 'less',
+  LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+  PATH: '/Users/nomklong/project/demo/bank-api/node_modules/.bin:/Users/nomklong/project/demo/bank-api/node_modules/.bin:/Users/nomklong/project/demo/node_modules/.bin:/Users/nomklong/project/node_modules/.bin:/Users/nomklong/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/nomklong/.nvm/versions/node/v14.18.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/openssl@3/bin:/Users/nomklong/.nvm/versions/node/v14.18.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin',
+  _: '/Users/nomklong/project/demo/bank-api/node_modules/.bin/ts-node',
+  npm_package_json: '/Users/nomklong/project/demo/bank-api/package.json',
+  __CFBundleIdentifier: 'com.googlecode.iterm2',
+  npm_config_init_module: '/Users/nomklong/.npm-init.js',
+  npm_config_userconfig: '/Users/nomklong/.npmrc',
+  PWD: '/Users/nomklong/project/demo/bank-api',
+  npm_command: 'run-script',
+  EDITOR: 'vi',
+  npm_lifecycle_event: 'dev:nodemon',
+  npm_package_name: 'bank-api',
+  ITERM_PROFILE: 'Default',
+  XPC_FLAGS: '0x0',
+  npm_config_node_gyp: '/Users/nomklong/.nvm/versions/node/v14.18.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js',
+  XPC_SERVICE_NAME: '0',
+  npm_package_version: '0.0.1',
+  COLORFGBG: '7;0',
+  HOME: '/Users/nomklong',
+  SHLVL: '3',
+  LC_TERMINAL_VERSION: '3.4.12',
+  npm_config_strict_ssl: '',
+  HOMEBREW_PREFIX: '/opt/homebrew',
+  ITERM_SESSION_ID: 'w0t0p0:BEBECB9B-60EB-40B7-8515-5AA117573213',
+  LOGNAME: 'nomklong',
+  LESS: '-R',
+  npm_config_cache: '/Users/nomklong/.npm',
+  npm_lifecycle_script: 'nodemon -w src -e ts,json -x ts-node ./src/index.ts',
+  LC_CTYPE: 'UTF-8',
+  NVM_BIN: '/Users/nomklong/.nvm/versions/node/v14.18.1/bin',
+  npm_config_user_agent: 'npm/8.1.2 node/v14.18.1 darwin x64 workspaces/false',
+  HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+  INFOPATH: '/opt/homebrew/share/info:',
+  LC_TERMINAL: 'iTerm2',
+  COLORTERM: 'truecolor',
+  npm_config_prefix: '/Users/nomklong/.nvm/versions/node/v14.18.1',
+  npm_node_execpath: '/Users/nomklong/.nvm/versions/node/v14.18.1/bin/node',
+  port: '8081',
+  NODE_ENV: 'development'
+}
+Express application started on port: 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node ./src/index.ts`
+undefined
+Express application started on port: 8080
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev:nodemon                                                                               feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev:nodemon
+> nodemon -w src -e ts,json -x ts-node ./src/index.ts
+
+[nodemon] 2.0.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                                       feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+undefined
+Express application started on port: 8080
+GET /api/server-status 304 8.984 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                                       feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+undefined
+Express application started on port: 8080
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                                       feature/login [a00be7b] modified
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+development
+Express application started on port: 8081
+GET /api/server-status 200 4.591 ms - 37
+GET /favicon.ico 404 2.010 ms - 150
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/src/index.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                         feature/login [a00be7b] modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/src/index.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                         feature/login [a00be7b] modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:6:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:6:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                             feature/login [a00be7b] modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+GET /api/server-status 304 4.281 ms - -
+GET /api/server-status 304 1.816 ms - -
+GET /api/server-status 304 0.770 ms - -
+GET /api/server-status/routes 200 0.874 ms - 2745
+GET /api/server-status/routes 304 3.239 ms - -
+GET /api/server-status/routes 304 15.526 ms - -
+GET /api/server-status/routes 304 0.635 ms - -
+GET /api/server-status/routes 304 2.755 ms - -
+GET /api/server-status/routes 304 0.975 ms - -
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+src/app/services/server.status.service.ts:23:3 - error TS2322: Type 'any[]' is not assignable to type 'string'.
+
+23   return routes;
+     ~~~~~~~~~~~~~~
+
+
+Found 1 error.
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                 feature/login [a00be7b] renamed modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                 feature/login [a00be7b] renamed modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module '../src/app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+>                                                                                 feature/login [a00be7b] renamed modified untracked
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+const mongoDatabase = () => mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI)
+                                     ^
+
+TypeError: mongoose.connect is not a function
+    at mongoDatabase (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:38)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:33:36)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+exports.mongoDatabase = mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI)
+                                 ^
+
+TypeError: mongoose.connect is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:34)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:28:26)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+src/app/config/mongo-database.ts:20:28 - error TS1005: ',' expected.
+
+20 export const mongoDatabase () => mongoose.createConnection(process.env.MONGO_URI || config.MONGO_URI);
+                              ~
+
+
+Found 1 error.
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+src/index.ts:12:1 - error TS2349: This expression is not callable.
+  Type 'Connection' has no call signatures.
+
+12 mongoDatabase().connect();
+   ~~~~~~~~~~~~~
+
+
+Found 1 error.
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './src/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './src/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Error: Cannot find module './src/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/src/index.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:6:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^[[A
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:2
+import config from "/config.json";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:2
+import config from "/config.json";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/Users/nomklong/project/demo/bank-api/node_modules/ts-node/src/index.ts:1056:23)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:5:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^[[A^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Error connecting mongodb
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/connection.js:684:11)
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:330:10
+    at /Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:1151:10)
+    at Mongoose.connect (/Users/nomklong/project/demo/bank-api/node_modules/mongoose/lib/index.js:329:20)
+    at Object.exports.connect (/Users/nomklong/project/demo/bank-api/src/app/config/mongo-database.js:4:14)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/src/index.ts:4:40)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+Connect mongodb successfully
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+exports.mongoDatabase = mongoose.createConnection(process.env.MONGO_URI || config_json_1.default.MONGO_URI);
+                                 ^
+
+TypeError: mongoose.createConnection is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:34)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43
+exports.mongoDatabase = mongoose.createConnection(process.env.MONGO_URI || config_json_1.default.MONGO_URI);
+                                 ^
+
+TypeError: mongoose.createConnection is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/app/config/mongo-database.js:43:34)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module './app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run build                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 build
+> tsc
+
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/index.js:31
+mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI, {}).then().catch();
+         ^
+
+TypeError: mongoose.connect is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:31:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run start                                                                   feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 start
+> node ./build/src/index.js
+
+/Users/nomklong/project/demo/bank-api/build/src/index.js:31
+mongoose.connect(process.env.MONGO_URI || config_json_1.default.MONGO_URI, {}).then().catch();
+         ^
+
+TypeError: mongoose.connect is not a function
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:31:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run dev                                                                     feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 dev
+> ts-node ./src/index.ts
+
+Express application started on port: 8081
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+^[[A^[[B^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:30:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'app/config/mongo-database'
+Require stack:
+- /Users/nomklong/project/demo/bank-api/build/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at Object.<anonymous> (/Users/nomklong/project/demo/bank-api/build/src/index.js:30:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/nomklong/project/demo/bank-api/build/src/index.js' ]
+}
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js
+
+Express application started on port: 8081
+Connect mongodb successfully
+^[[A
+^C
+
+nomklong@Adisaks-MacBook-Air:~/project/demo/bank-api (*)
+> npm run prod                                                                    feature/login [a00be7b] renamed modified untracked
+^[[A
+> bank-api@0.0.1 prod
+> tsc && node ./build/src/index.js

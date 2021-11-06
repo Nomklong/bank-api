@@ -1,5 +1,6 @@
 {
   "PORT": 8080,
   "NODE_ENV": "development",
-  "MONGO_URI": "mongodb://localhost:27017/bank"
+  "MONGO_URI": "mongodb://localhost:27017/bank",
+  "SECRET_KEY": "nomklong"
 }

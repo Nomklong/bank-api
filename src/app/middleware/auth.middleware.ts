@@ -13,15 +13,15 @@ export const authMiddleware = (
     secretOrKey: process.env.SECRET_KEY,
   };
   const jwtAuth = new Strategy(jwtOptions, (payload, done) => {
-    console.log(payload);
+    // TODO find user
     if (payload.id === 1) {
       done(null, true);
       return;
     }
     done(null, false);
   });
+
   passport.authenticate(jwtAuth, function (err, user, _info) {
-    console.log(user);
     if (err) {
       console.log(err);
       throw new UnauthorizedException();

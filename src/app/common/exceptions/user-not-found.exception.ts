@@ -1,7 +1,19 @@
 import { BaseError } from "./base.exception";
 
 export class UserNotFoundException extends BaseError {
-  constructor() {
-    super("User Not found", [], 404);
+  constructor(
+    errors: any | any[],
+    message: string = "User Not Found",
+    statusCode: number = 404
+  ) {
+    super(message, errors, statusCode);
+  }
+
+  static notFound() {
+    throw new UserNotFoundException([]);
+  }
+
+  static userOrPasswordMismatch() {
+    throw new UserNotFoundException([], "User or password mismatch", 400);
   }
 }

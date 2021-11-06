@@ -1,13 +1,16 @@
 import { Router } from "express";
+import { authMiddleware } from "../middleware/auth.middleware";
+import { successHandler } from "../common/response";
 
 // Export module for registering router in express app
 export const router: Router = Router();
 
 // Define your routes here
-router.get("/", (req, res) => {
-  res.status(200).send({
+router.get("/", authMiddleware, (req, res) => {
+  const response = {
     message: "GET request from sample router",
-  });
+  };
+  successHandler(res, response);
 });
 
 router.post("/", (req, res) => {

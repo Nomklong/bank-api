@@ -4,6 +4,8 @@ import helmet from "helmet";
 import cors from "cors";
 import config from "../config.json";
 import { getFilesWithKeyword } from "./utils/getFilesWithKeyword";
+import { errorHandler } from "./app/common/response";
+import { RouteNotFoundException } from "./app/common/exceptions/route-not-found.exception";
 
 const app: Express = express();
 
@@ -41,20 +43,26 @@ getFilesWithKeyword("router", __dirname + "/app").forEach((file: string) => {
  *                               Express Error Handling
  ***********************************************************************************/
 
+app.get("*", function (_req, _res) {
+  throw new RouteNotFoundException();
+});
+
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-app.use(
-  (
-    err: Error,
-    req: express.Request,
-    res: express.Response,
-    next: express.NextFunction
-  ) => {
-    return res.status(500).json({
-      errorName: err.name,
-      message: err.message,
-      stack: err.stack || "no stack defined",
-    });
-  }
-);
+// app.use(
+//   (
+//     err: Error,
+//     req: express.Request,
+//     res: express.Response,
+//     next: express.NextFunction
+//   ) => {
+//     return res.status(500).json({
+//       errorName: err.name,
+//       message: err.message,
+//       stack: err.stack || "no stack defined",
+//     });
+//   }
+// );
+
+app.use(errorHandler);
 
 export default app;

@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import { UnauthorizedException } from "../common/exceptions/unauthorized.exception";
 import passport from "passport";
 import { ExtractJwt, Strategy } from "passport-jwt";
+import { UserInstance } from "../services/user.service";
 
 export const authMiddleware = (
   req: Request,
@@ -12,9 +13,9 @@ export const authMiddleware = (
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
     secretOrKey: process.env.SECRET_KEY,
   };
-  const jwtAuth = new Strategy(jwtOptions, (payload, done) => {
-    // TODO find user
-    if (payload.id === 1) {
+  const jwtAuth = new Strategy(jwtOptions, async (payload, done) => {
+    const user = await UserInstance.findById(payload.id);
+    if (user) {
       done(null, true);
       return;
     }

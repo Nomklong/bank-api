@@ -1,5 +1,4 @@
 import { Router } from "express";
-import { successHandler } from "../common/response";
 import validate from "../middleware/validation.middleware";
 
 import * as dotenv from "dotenv";

@@ -3,17 +3,18 @@ import jwt from "jwt-simple";
 import { successHandler } from "../common/response";
 import { Request, Response } from "express";
 import config from "../../../config.json";
+import { UserInstance } from "../services/user.service";
 
-const loginController = (req: Request, res: Response) => {
-  if (
-    req.body.email !== "nomklong@gmail.com" ||
-    req.body.password !== "password"
-  ) {
-    throw new UserNotFoundException();
+const loginController = async (req: Request, res: Response): Promise<void> => {
+  const user: any = await UserInstance.find(req.body.email);
+
+  if (!user) {
+    throw UserNotFoundException.notFound();
   }
+
   const payload = {
-    id: 1,
-    email: req.body.email,
+    id: user._id,
+    email: user.email,
     iat: new Date().getTime(),
   };
 

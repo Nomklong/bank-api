@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { successHandler } from "../common/response";
 import { WalletInstance } from "../services/wallet.service";
 
-const pointBalance = async (req: Request, res: Response): Promise<void> => {
+const checkBalance = async (req: Request, res: Response): Promise<void> => {
   const userId = req.body.user._id;
   const wallet = await WalletInstance.findByUserId(userId);
 
@@ -15,4 +15,4 @@ const pointBalance = async (req: Request, res: Response): Promise<void> => {
   return successHandler(res, newWallet);
 };
 
-export { pointBalance };
+export { checkBalance };

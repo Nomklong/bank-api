@@ -21,6 +21,13 @@ class WalletService {
   findByUserId(userId: string): QueryWithHelpers {
     return WalletModel.findOne({ user_id: userId });
   }
+
+  depositByUserId(userId: string, balance: number): QueryWithHelpers {
+    return WalletModel.findOneAndUpdate(
+      { user_id: userId },
+      { $inc: { balance } }
+    );
+  }
 }
 
 const WalletInstance = new WalletService();

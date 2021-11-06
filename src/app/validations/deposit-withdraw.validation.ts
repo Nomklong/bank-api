@@ -1,6 +1,6 @@
 import Joi, { ObjectSchema, LanguageMessages } from "joi";
 
-const depositValidator: { body: ObjectSchema<any> } = {
+const depositWithdrawValidation: { body: ObjectSchema<any> } = {
   body: Joi.object().keys({
     balance: Joi.number()
       .required()
@@ -16,4 +16,4 @@ const depositValidator: { body: ObjectSchema<any> } = {
   }),
 };
 
-export { depositValidator };
+export { depositWithdrawValidation };

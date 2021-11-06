@@ -1,4 +1,4 @@
-import { UserNotFoundException } from "../common/exceptions/user-not-found.exception";
+import { UserException } from "../common/exceptions/user.exception";
 import jwt from "jwt-simple";
 import { successHandler } from "../common/response";
 import { Request, Response } from "express";
@@ -11,13 +11,13 @@ const loginController = async (req: Request, res: Response): Promise<void> => {
   const user: any = await UserInstance.find(req.body.email);
 
   if (user === null) {
-    throw UserNotFoundException.notFound();
+    throw UserException.notFound();
   }
 
   const checkPassword = await bcrypt.compare(req.body.password, user.password);
 
   if (!checkPassword) {
-    throw UserNotFoundException.userOrPasswordMismatch();
+    throw UserException.userOrPasswordMismatch();
   }
   const payload = {
     id: user._id,
@@ -43,7 +43,7 @@ const registerController = async (req: Request, res: Response) => {
   const user: any = await UserInstance.find(req.body.email);
 
   if (user) {
-    throw UserNotFoundException.duplicateUser();
+    throw UserException.duplicateUser();
   }
 
   const { email, first_name, last_name, password } = req.body;

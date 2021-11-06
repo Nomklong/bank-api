@@ -1,6 +1,6 @@
 import { BaseError } from "./base.exception";
 
-export class UserNotFoundException extends BaseError {
+export class UserException extends BaseError {
   constructor(
     errors: any | any[],
     message: string = "User Not Found",
@@ -10,14 +10,14 @@ export class UserNotFoundException extends BaseError {
   }
 
   static notFound() {
-    throw new UserNotFoundException([]);
+    throw new UserException([]);
   }
 
   static userOrPasswordMismatch() {
-    throw new UserNotFoundException([], "User or password mismatch", 400);
+    throw new UserException([], "User or password mismatch", 400);
   }
 
   static duplicateUser() {
-    throw new UserNotFoundException([], "Duplicate user", 400);
+    throw new UserException([], "Duplicate user", 400);
   }
 }

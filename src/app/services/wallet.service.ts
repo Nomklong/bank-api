@@ -1,5 +1,5 @@
 import { generateWalletNumber } from "../../utils/generate-wallet-number";
-import { WalletModel } from "../models/wallet.model";
+import { IWallet, WalletModel } from "../models/wallet.model";
 
 class QueryWithHelpers {}
 
@@ -16,6 +16,24 @@ class WalletService {
 
   findByNumber(walletNumber: number): QueryWithHelpers {
     return WalletModel.findOne({ wallet_number: walletNumber });
+  }
+
+  findByUserId(userId: string) {
+    return WalletModel.findOne({ user_id: userId });
+  }
+
+  depositByUserId(userId: string, balance: number): QueryWithHelpers {
+    return WalletModel.findOneAndUpdate(
+      { user_id: userId },
+      { $inc: { balance } }
+    );
+  }
+
+  withdrawByUserId(userId: string, balance: number): QueryWithHelpers {
+    return WalletModel.findOneAndUpdate(
+      { user_id: userId },
+      { $inc: { balance: -balance } }
+    );
   }
 }
 

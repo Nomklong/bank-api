@@ -16,6 +16,7 @@ export const authMiddleware = (
   const jwtAuth = new Strategy(jwtOptions, async (payload, done) => {
     const user = await UserInstance.findById(payload.id);
     if (user) {
+      req.body.user = user;
       done(null, true);
       return;
     }

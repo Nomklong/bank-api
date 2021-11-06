@@ -16,4 +16,8 @@ export class UserNotFoundException extends BaseError {
   static userOrPasswordMismatch() {
     throw new UserNotFoundException([], "User or password mismatch", 400);
   }
+
+  static duplicateUser() {
+    throw new UserNotFoundException([], "Duplicate user", 400);
+  }
 }

@@ -1,6 +1,13 @@
-import { IUser, UserModel } from "../models/user.model";
+import { UserModel } from "../models/user.model";
 
 class QueryWithHelpers {}
+
+export type UserType = {
+  email: string;
+  first_name: string;
+  last_name: string;
+  password: string;
+};
 
 class UserService {
   find(email: string): QueryWithHelpers {
@@ -9,6 +16,10 @@ class UserService {
 
   findById(id: number): QueryWithHelpers {
     return UserModel.findById(id);
+  }
+
+  store(parameter: UserType) {
+    return UserModel.create(parameter);
   }
 }
 

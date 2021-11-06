@@ -1,7 +1,7 @@
-import { Schema, model, Document } from "mongoose";
+import { Schema, model } from "mongoose";
 import { convertDateTimeToAsiaBkk } from "../../utils/convert-datetime-to-asia-bkk";
 
-export interface IUser extends Document {
+export interface IUser {
   email: string;
   password: string;
   first_name: string;

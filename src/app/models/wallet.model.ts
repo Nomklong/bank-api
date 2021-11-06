@@ -1,4 +1,4 @@
-import { Schema, model, Document } from "mongoose";
+import { Schema, model } from "mongoose";
 import { convertDateTimeToAsiaBkk } from "../../utils/convert-datetime-to-asia-bkk";
 
 export interface IWallet {

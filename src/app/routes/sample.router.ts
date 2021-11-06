@@ -6,26 +6,26 @@ import { successHandler } from "../common/response";
 export const router: Router = Router();
 
 // Define your routes here
-router.get("/", authMiddleware, (req, res) => {
+router.get("/", authMiddleware, (_req, res) => {
   const response = {
     message: "GET request from sample router",
   };
   successHandler(res, response);
 });
 
-router.post("/", (req, res) => {
+router.post("/", (_req, res) => {
   res.status(200).send({
     message: "POST request from sample router",
   });
 });
 
-router.put("/", (req, res) => {
+router.put("/", (_req, res) => {
   res.status(200).send({
     message: "PUT request from sample router",
   });
 });
 
-router.delete("/", (req, res) => {
+router.delete("/", (_req, res) => {
   res.status(200).send({
     message: "DELETE request from sample router",
   });

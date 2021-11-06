@@ -3,7 +3,7 @@ import { successHandler } from "../common/response";
 import { WalletInstance } from "../services/wallet.service";
 import { WalletException } from "../common/exceptions/wallet.exception";
 
-const depositController = async (
+const withdrawController = async (
   req: Request,
   res: Response
 ): Promise<void> => {
@@ -15,13 +15,17 @@ const depositController = async (
     throw WalletException.notFound();
   }
 
-  await WalletInstance.depositByUserId(userId, balance);
+  if (wallet.balance < balance) {
+    throw WalletException.notOnlyYourBalance();
+  }
+
+  await WalletInstance.withdrawByUserId(userId, balance);
 
   const response = {
-    message: "Deposit successfully",
+    message: "Withdraw successfully",
   };
 
   return successHandler(res, response);
 };
 
-export { depositController };
+export { withdrawController };

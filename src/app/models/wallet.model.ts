@@ -1,7 +1,7 @@
 import { Schema, model, Document } from "mongoose";
 import { convertDateTimeToAsiaBkk } from "../../utils/convert-datetime-to-asia-bkk";
 
-export interface IWallet extends Document {
+export interface IWallet {
   user_id: string;
   balance: number;
   wallet_number: number;

@@ -10,7 +10,10 @@ export class UserNotFoundException extends BaseError {
   }
 
   static notFound() {
-    console.log(123);
     throw new UserNotFoundException([]);
+  }
+
+  static userOrPasswordMismatch() {
+    throw new UserNotFoundException([], "User or password mismatch", 400);
   }
 }

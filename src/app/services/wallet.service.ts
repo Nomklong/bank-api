@@ -1,17 +1,24 @@
-import { IUser, UserModel } from "../models/user.model";
+import { generateWalletNumber } from "../../utils/generate-wallet-number";
+import { WalletModel } from "../models/wallet.model";
 
 class QueryWithHelpers {}
 
-class UserService {
-  find(email: string): QueryWithHelpers {
-    return UserModel.findOne({ email: email });
+class WalletService {
+  async store(userId: string): Promise<QueryWithHelpers> {
+    const walletNumber = await generateWalletNumber();
+    const parameters = {
+      user_id: userId,
+      wallet_number: walletNumber,
+      balance: 0,
+    };
+    return WalletModel.create(parameters);
   }
 
-  findById(id: number): QueryWithHelpers {
-    return UserModel.findById(id);
+  findByNumber(walletNumber: number): QueryWithHelpers {
+    return WalletModel.findOne({ wallet_number: walletNumber });
   }
 }
 
-const UserInstance = new UserService();
+const WalletInstance = new WalletService();
 
-export { UserService, UserInstance };
+export { WalletService, WalletInstance };

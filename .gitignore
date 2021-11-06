@@ -4,3 +4,4 @@ logs/
 
 src/app/.notes
 .env
+.idea

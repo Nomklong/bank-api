@@ -1,7 +1,16 @@
 import { BaseError } from "./base.exception";
 
 export class UserNotFoundException extends BaseError {
-  constructor() {
-    super("User Not found", [], 404);
+  constructor(
+    errors: any | any[],
+    message: string = "User Not Found",
+    statusCode: number = 404
+  ) {
+    super(message, errors, statusCode);
+  }
+
+  static notFound() {
+    console.log(123);
+    throw new UserNotFoundException([]);
   }
 }

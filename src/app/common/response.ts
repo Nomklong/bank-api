@@ -24,6 +24,7 @@ const errorHandler = (
   res: Response,
   _next: NextFunction
 ): void => {
+  console.log(err);
   const response = {
     status: {
       code: err.statusCode,
@@ -35,6 +36,7 @@ const errorHandler = (
     },
   };
 
+  console.log(response);
   res.status(err.statusCode).send(response);
 };
 

@@ -4,7 +4,6 @@ export class BaseError extends Error {
 
   constructor(message: string, errors: any, statusCode: number) {
     super(message);
-    console.log(message);
 
     this.errors = JSON.stringify(errors);
     this.statusCode = statusCode;

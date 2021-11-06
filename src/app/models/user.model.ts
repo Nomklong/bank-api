@@ -1,7 +1,6 @@
 import { Schema, model, Document } from "mongoose";
 import { convertDateTimeToAsiaBkk } from "../../utils/convert-datetime-to-asia-bkk";
 
-// 1. Create an interface representing a document in MongoDB.
 export interface IUser extends Document {
   email: string;
   password: string;
@@ -11,7 +10,6 @@ export interface IUser extends Document {
   updatedAt?: Date;
 }
 
-// 2. Create a Schema corresponding to the document interface.
 const schema = new Schema<IUser>({
   email: { type: String, required: true },
   password: { type: String, required: true },

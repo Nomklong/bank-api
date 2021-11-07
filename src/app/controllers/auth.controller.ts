@@ -27,6 +27,9 @@ const loginController = async (req: Request, res: Response): Promise<void> => {
 
   const response = {
     token: jwt.encode(payload, process.env.SECRET_KEY || config.SECRET_KEY),
+    email: user.email,
+    first_name: user.first_name,
+    last_name: user.last_name,
   };
 
   successHandler(res, response);

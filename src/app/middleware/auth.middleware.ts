@@ -20,7 +20,7 @@ export const authMiddleware = (
       done(null, true);
       return;
     }
-    done(null, false);
+    done("user not found", false);
   });
 
   passport.authenticate(jwtAuth, function (err, user, _info) {

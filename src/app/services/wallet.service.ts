@@ -1,5 +1,6 @@
 import { generateWalletNumber } from "../../utils/generate-wallet-number";
 import { IWallet, WalletModel } from "../models/wallet.model";
+import { TransactionInstance, TransactionType } from "./transaction.service";
 
 class QueryWithHelpers {}
 
@@ -47,15 +48,32 @@ class WalletService {
     const session = await WalletModel.startSession();
 
     session.withTransaction(async () => {
-      await WalletModel.findOneAndUpdate(
+      const from = await WalletModel.findOneAndUpdate(
         { wallet_number: fromNumber },
         { $inc: { balance: -balance } }
       );
 
-      await WalletModel.findOneAndUpdate(
+      if (!from) {
+        //
+      }
+
+      const to = await WalletModel.findOneAndUpdate(
         { wallet_number: toNumber },
         { $inc: { balance: balance } }
       );
+
+      if (from && to) {
+        const parameters: TransactionType = {
+          to_user_id: to.user_id,
+          to_wallet_number: toNumber,
+          current_balance: from.balance - balance,
+          from_user_id: from.user_id,
+          from_wallet_number: fromNumber,
+          action: "transfer",
+          transfer_balance: balance,
+        };
+        await TransactionInstance.store(parameters);
+      }
     });
 
     await session.endSession();

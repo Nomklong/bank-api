@@ -39,4 +39,8 @@ router.post(
   asyncHelper(transferController)
 );
 
-router.get("/transections", authMiddleware, asyncHelper(transactionController));
+router.post(
+  "/transactions",
+  authMiddleware,
+  asyncHelper(transactionController)
+);

@@ -9,6 +9,8 @@ import { checkBalance } from "../controllers/check-balance.controller";
 import { depositController } from "../controllers/deposit.controller";
 import { depositWithdrawValidation } from "../validations/deposit-withdraw.validation";
 import { withdrawController } from "../controllers/withdraw.controller";
+import { transferController } from "../controllers/transfer.controller";
+import { transferValidation } from "../validations/transfer.validation";
 
 // Export module for registering router in express app
 export const router: Router = Router();
@@ -34,4 +36,11 @@ router.patch(
   validate(depositWithdrawValidation),
   authMiddleware,
   asyncHelper(withdrawController)
+);
+
+router.post(
+  "/transfer",
+  validate(transferValidation),
+  authMiddleware,
+  asyncHelper(transferController)
 );

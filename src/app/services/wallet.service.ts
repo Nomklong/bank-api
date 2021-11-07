@@ -22,6 +22,13 @@ class WalletService {
     return WalletModel.findOne({ user_id: userId });
   }
 
+  findByWalletNumber(walletNumber: number, userId: string) {
+    return WalletModel.findOne({
+      wallet_number: walletNumber,
+      user_id: { $ne: userId },
+    });
+  }
+
   depositByUserId(userId: string, balance: number): QueryWithHelpers {
     return WalletModel.findOneAndUpdate(
       { user_id: userId },
@@ -34,6 +41,24 @@ class WalletService {
       { user_id: userId },
       { $inc: { balance: -balance } }
     );
+  }
+
+  async transfer(fromNumber: number, toNumber: number, balance: number) {
+    const session = await WalletModel.startSession();
+
+    session.withTransaction(async () => {
+      await WalletModel.findOneAndUpdate(
+        { wallet_number: fromNumber },
+        { $inc: { balance: -balance } }
+      );
+
+      await WalletModel.findOneAndUpdate(
+        { wallet_number: toNumber },
+        { $inc: { balance: balance } }
+      );
+    });
+
+    await session.endSession();
   }
 }
 

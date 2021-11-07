@@ -13,6 +13,10 @@ export class WalletException extends BaseError {
     throw new WalletException([]);
   }
 
+  static notFoundTransferNumber() {
+    throw new WalletException([], "Transfer wallet not found");
+  }
+
   static notOnlyYourBalance() {
     throw new WalletException([], "Not only your balance", 400);
   }

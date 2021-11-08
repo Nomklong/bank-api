@@ -39,7 +39,7 @@ class TransactionService {
         to_user_id: userId,
       };
     }
-    return await TransactionModel.find(condition);
+    return await TransactionModel.find(condition).sort({ createdAt: -1 });
   }
 
   store(parameter: TransactionType) {

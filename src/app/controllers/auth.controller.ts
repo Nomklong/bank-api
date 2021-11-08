@@ -27,6 +27,9 @@ const loginController = async (req: Request, res: Response): Promise<void> => {
 
   const response = {
     token: jwt.encode(payload, process.env.SECRET_KEY || config.SECRET_KEY),
+    email: user.email,
+    first_name: user.first_name,
+    last_name: user.last_name,
   };
 
   successHandler(res, response);
@@ -60,8 +63,17 @@ const registerController = async (req: Request, res: Response) => {
 
   await WalletInstance.store(newUser._id);
 
+  const payload = {
+    id: newUser._id,
+    email: newUser.email,
+    iat: new Date().getTime(),
+  };
+
   const response = {
-    message: "Register successfully",
+    token: jwt.encode(payload, process.env.SECRET_KEY || config.SECRET_KEY),
+    email: newUser.email,
+    first_name: newUser.first_name,
+    last_name: newUser.last_name,
   };
 
   successHandler(res, response);
